@@ -6,7 +6,6 @@ body{
 	background-color: #fafafa;
 	height: 100vh;
 	margin: 35px 0px 0px 0px;
-/*	transform: scale(1.2);*/
 }
 
 main{
@@ -18,8 +17,7 @@ main{
 	align-items: center;
 	height: 90%;
 	padding: 0px;
-	padding-top: 95px;
-	transform: scale(1.1);
+	transform: scale(0.9);
 }
 
 .izquierdo{
@@ -36,6 +34,7 @@ main{
 	position: relative;
 	top: 28px;
 	left: 155px;
+	z-index: -2;
 }
 
 .derecho{
@@ -51,10 +50,6 @@ a:active {
 	color: gray;
 }
 
-form{
-	width: 348px;
-}
-
 .navbar a:hover{
 	text-decoration: underline;
 }
@@ -66,18 +61,16 @@ form{
 	align-content: center;
 	align-items: stretch;
 	justify-content: center;
-	width: 300px;
+	width: 350px;
 	background-color: white;
 	border: 1px solid rgb(219, 219, 219);
 	font-family: -apple-system;
 	padding: 40px;
 	margin: 20px;
-	transform: scale(1.0);
 }
 
 #logo{
 	padding: 0px 70px 30px 70px;
-
 }
 
 input{
@@ -128,7 +121,7 @@ input:focus, input:active{
 	text-align: center;
 	color: rgb(56, 81, 133);
 	font-weight: 600;
-	font-size: 15px;
+	font-size: 18px;
 }
 
 .iconoFacebook{
@@ -206,7 +199,7 @@ footer{
 .copyright{
 	text-align: center;
 	color: gray;
-	padding: 15px;
+	padding: 10px;
 }
 
 @media screen and (max-width:952px){
@@ -215,16 +208,8 @@ footer{
 	}
 }
 
-.login{
-	font-size: 14px;
-}
-
-.navbar span{
-	padding-top: 10px;
-}
-
-/*@media screen and (max-width:1400px){
+@media screen and (max-width:1400px){
 	body{
 		transform: scale(0.8);
 	}
-}*/
+}
